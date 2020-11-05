@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 100%;
+  }
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+  picture {
+    display: block;
+  }
+  body{
+    height:38rem;
+  }
+  .principal{
+    width:49%;
+    height:40rem;
+    position:fixed;
+    border: 1px solid;
+  }
+  .secundario{
+    margin-left:50%;
+    width:50%;
+    height:100rem;
+    display:flex;
+    flex-direction: column;
+
+  }
+  main{
+display:flex;
+height:100%
+  }
+  
+ footer{
+   color:white;
+   background-color: rgba(0, 0, 0);
+   padding:1rem;
+   position:fixed;
+   width:100%;
+ }
+ .textarea{
+   border:1px solid;
+   padding: 2rem;
+ }
+
+
+ #param1,#param2,#param3,#param21,#param22,#param31,#param32,#param33{
+   width: 6rem;
+ }
+ .textareaSplice{
+   display: flex;
+   border:1px solid;
+ }
+ #textSplice2{
+   margin-top:13px;
+ }
+#textSplice1{
+  margin-top:5px;
+} 
